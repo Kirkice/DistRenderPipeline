@@ -170,7 +170,7 @@ namespace UnityEditor.Rendering.Universal
                         {
                             hasChangedProperties = true;
 
-                            // We need to update sub-asset name
+                            // We need to update sub-asset name 
                             rendererFeatureObjRef.name = nameProperty.stringValue;
                             AssetDatabase.SaveAssets();
 
